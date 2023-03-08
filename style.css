@@ -1,0 +1,56 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-container input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .centres-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .centres-container .centre-card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .centres-container .centre-card .card-body {
+    padding: 20px;
+  }
+  
+  .centres-container .centre-card .card-body h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .centres-container .centre-card .card-body p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
